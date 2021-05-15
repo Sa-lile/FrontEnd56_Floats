@@ -1,0 +1,25 @@
+.container {
+    background: orange;
+    width: 500px;
+    height: auto;
+}
+.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.bloc {
+    width: 100px;
+    height: 100px;
+}
+.b1 {
+    background: green;
+    float: left; 
+}
+.b2 {
+   background: crimson;
+   float: right;
+} 
+/* p {
+    clear: left;
+} */
